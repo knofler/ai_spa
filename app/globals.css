@@ -1,6 +1,7 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* Force Tailwind to process utilities */
 @layer base {
   * {
     box-sizing: border-box;
